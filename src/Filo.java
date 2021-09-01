@@ -1,6 +1,6 @@
 
 public enum Filo {
-	CORDADO(true, true), OCTOPUS(false, true), ANERIDIOS(false, false);
+	CORDADO(true, true), ARTROPODE(false, true);
 	
 	private boolean vertebrado, locomove;
 	

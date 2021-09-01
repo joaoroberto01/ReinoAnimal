@@ -33,9 +33,16 @@ public abstract class Animal {
         System.out.println(msg);
     }
     
+    public void comer() {
+    	System.out.println("Nhami Nhami comidinha");
+    }
+    
     public void info() {
     	System.out.println("\n----------------------------------");
-    	System.out.printf("Nome: %s\nCategoria: %s\nFilo: %s\nVertebrado: %s\n", nome, categoria, filo.toString(), vertebrado ? "Sim" : "Não");
+    	System.out.printf("Nome: %s\n", nome);
+    	System.out.printf("Categoria: %s\n", categoria);
+    	System.out.printf("Filo: %s\n", filo);
+    	System.out.printf("Vertebrado: %s\n", vertebrado ? "Sim" : "Não");
     	System.out.println("----------------------------------");
     }
 }

@@ -6,9 +6,9 @@ public class Main {
 		cachorro.info();
 		cachorro.locomover();
 		
-		Mamifero canguru = new Mamifero("Cangurú");
-		canguru.info();
-		canguru.locomover();
+		Mamifero boi = new Mamifero("Boi Bravo");
+		boi.info();
+		boi.locomover();
 		
 		Ave espacoNave = new Ave("Espaço Nave");
 		espacoNave.info();
@@ -21,6 +21,12 @@ public class Main {
 		Anfibio sapin = new Anfibio("Sapin");
 		sapin.info();
 		sapin.locomover();
+		
+		Reptil tartaruga = new Reptil("Jacared");
+		tartaruga.info();
+		tartaruga.locomover();
+		
+		
 	}
 
 }
