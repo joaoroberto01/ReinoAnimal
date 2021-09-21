@@ -1,46 +1,47 @@
+package com.jrgc;
 
 public class Main {
 
 	public static void main(String[] args) {
 		Mamifero cachorro = new Mamifero("Cachorro Caramelo");
-		cachorro.info();
 		cachorro.locomover();
-		
+		cachorro.info();
+
 		Mamifero boi = new Mamifero("Boi Bravo");
-		boi.info();
 		boi.locomover();
-		
+		boi.info();
+
 		Ave espacoNave = new Ave("Espaço Nave");
-		espacoNave.info();
 		espacoNave.locomover();
-		
+		espacoNave.info();
+
 		Peixe peixeEspada = new Peixe("Peixe Espada");
-		peixeEspada.info();
 		peixeEspada.locomover();
-		
+		peixeEspada.info();
+
 		Anfibio sapin = new Anfibio("Sapin");
-		sapin.info();
 		sapin.locomover();
-		
+		sapin.info();
+
 		Reptil tartaruga = new Reptil("Jacared");
-		tartaruga.info();
 		tartaruga.locomover();
-		
+		tartaruga.info();
+
 		Aracnideo aranha = new Aracnideo("Aranha");
-		aranha.info();
 		aranha.locomover();
-		
+		aranha.info();
+
 		Crustaceo camarao = new Crustaceo("Camarão");
-		camarao.info();
 		camarao.locomover();
-		
+		camarao.info();
+
 		Inseto baratao = new Inseto("Baratão");
-		baratao.info();
 		baratao.locomover();
-		
+		baratao.info();
+
 		Inseto lagartao = new Inseto("Lagartão Com Rabo");
-		lagartao.info();
 		lagartao.locomover();
+		lagartao.info();
 	}
 
 }
